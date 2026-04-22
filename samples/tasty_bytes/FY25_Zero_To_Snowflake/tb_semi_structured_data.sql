@@ -8,8 +8,7 @@
                           __/ |          __/ |               
                          |___/          |___/            
 Quickstart:   Tasty Bytes - Zero to Snowflake - Semi-Structured Data
-Version:      v2
-Script:       tb_fy25_semi_structured_data.sql         
+Version:      v2     
 Author:       Jacob Kranzler
 Copyright(c): 2024 Snowflake Inc. All rights reserved.
 ****************************************************************************************************
@@ -40,7 +39,7 @@ USE DATABASE tb_101;
 
 
 -- assign Query Tag to Session 
-ALTER SESSION SET query_tag = '{"origin":"sf_sit","name":"tb_zts,"version":{"major":1, "minor":1},"attributes":{"medium":"quickstart", "source":"tastybytes", "vignette": "semi_structured"}}';
+ALTER SESSION SET query_tag = '{"origin":"sf_sit-is","name":"tb_zts","version":{"major":1, "minor":1},"attributes":{"is_quickstart":1, "source":"sql", "vignette": "semi_structured"}}';
 
 
 -- let's take a look at a few columns in our Raw Menu table we are receiving from our

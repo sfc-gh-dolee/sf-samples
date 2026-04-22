@@ -8,8 +8,7 @@
                           __/ |          __/ |               
                          |___/          |___/            
 Quickstart:   Tasty Bytes - Zero to Snowflake - Governance with Snowflake Horizon
-Version:      v2
-Script:       tb_fy25_governance_snowflake_horizon.sql         
+Version:      v2   
 Author:       Jacob Kranzler
 Copyright(c): 2024 Snowflake Inc. All rights reserved.
 ****************************************************************************************************
@@ -77,7 +76,7 @@ USE WAREHOUSE tb_dev_wh;
 
 
 -- assign Query Tag to Session 
-ALTER SESSION SET query_tag = '{"origin":"sf_sit","name":"tb_zts,"version":{"major":1, "minor":1},"attributes":{"medium":"quickstart", "source":"tastybytes", "vignette": "governance_with_horizon"}}';
+ALTER SESSION SET query_tag = '{"origin":"sf_sit-is","name":"tb_zts","version":{"major":1, "minor":1},"attributes":{"is_quickstart":1, "source":"sql", "vignette": "governance_with_horizon"}}';
 
 
 -- to follow best practices we will begin to investigate and deploy RBAC (Role-Based Access Control)

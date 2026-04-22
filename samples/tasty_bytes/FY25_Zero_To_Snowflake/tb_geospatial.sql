@@ -8,8 +8,7 @@
                           __/ |          __/ |               
                          |___/          |___/            
 Quickstart:   Tasty Bytes - Zero to Snowflake - Geospatial
-Version:      v2
-Script:       tb_fy25_geospatial.sql         
+Version:      v2 
 Author:       Jacob Kranzler
 Copyright(c): 2024 Snowflake Inc. All rights reserved.
 ****************************************************************************************************
@@ -63,7 +62,7 @@ USE DATABASE tb_101;
 
 
 -- assign Query Tag to Session 
-ALTER SESSION SET query_tag = '{"origin":"sf_sit","name":"tb_zts,"version":{"major":1, "minor":1},"attributes":{"medium":"quickstart", "source":"tastybytes", "vignette": "geospatial"}}';
+ALTER SESSION SET query_tag = '{"origin":"sf_sit-is","name":"tb_zts","version":{"major":1, "minor":1},"attributes":{"is_quickstart":1, "source":"sql", "vignette": "geospatial"}}';
 
 
 -- to explore our newly acquired third party data, let's find all Museums in Paris, France
